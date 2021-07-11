@@ -1,29 +1,33 @@
 {
-  "name": "webrtc-peer-client",
-  "version": "0.0.1",
-  "description": "webrtc simple peer client",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Laravelka/webrtc-peer-client.git"
-  },
-  "keywords": [
-    "webrtc",
-    "peer",
-    "websocket",
-    "socket.io",
-    "simple-signal"
-  ],
-  "author": "Laravelka",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Laravelka/webrtc-peer-client/issues"
-  },
-  "homepage": "https://github.com/Laravelka/webrtc-peer-client#readme",
-  "dependencies": {
-    "crypto": "^1.0.1"
-  }
+    "name": "webrtc-peer-client",
+    "version": "0.0.2",
+    "description": "webrtc simple peer client",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Laravelka/webrtc-peer-client.git"
+    },
+    "keywords": [
+        "webrtc",
+        "peer",
+        "websocket",
+        "socket.io",
+        "simple-peer"
+    ],
+    "author": "Laravelka",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Laravelka/webrtc-peer-client/issues"
+    },
+    "homepage": "https://github.com/Laravelka/webrtc-peer-client#readme",
+    "dependencies": {
+        "crypto": "^1.0.1",
+        "cuid": "^2.1.8",
+        "inherits": "^2.0.4",
+        "nanobus": "^4.5.0",
+        "simple-peer": "^9.11.0"
+    }
 }

@@ -232,6 +232,8 @@ WebrtcPeerClient.prototype.discover = function(discoveryData = {}) {
 }
 
 WebrtcPeerClient.prototype.peers = function() {
+    console.log('webrtcPeers:', this._peers);
+
     return Object.values(this._peers)
 }
 
